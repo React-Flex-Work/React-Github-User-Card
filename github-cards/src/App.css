@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightcyan;
 }
 
 .App-logo {
@@ -19,4 +23,47 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.chards79 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.my-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 10px ridge blue;
+  width: 65%;
+  background-color: lightblue;
+  margin: 20px;
+  padding: 20px;
+}
+
+.my-card h2 {
+  text-decoration: underline;
+  text-shadow: 2px 1px white;
+}
+
+
+.followers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.follower-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  width: 20%;
+  flex-direction: column;
 }
