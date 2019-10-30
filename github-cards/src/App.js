@@ -35,9 +35,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>My Github</h1>
+        <h1>My Github Profile</h1>
         <div className="chards79">
           <MyGitCard myCard={this.state.myCard} />
+          <h2>My Followers</h2>
           <MyFollowers myFollowers={this.state.myFollowers} />
         </div>
 
